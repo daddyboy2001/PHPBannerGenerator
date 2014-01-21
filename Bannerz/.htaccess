@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^http://tcbanner.zapto.org/Bannerz/([^/]*)/([^/]*)/([^/]*)\/.png$ /Bannerz/?server=$1&port=$2&name=$3 [L]
