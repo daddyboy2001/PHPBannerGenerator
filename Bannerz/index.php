@@ -12,7 +12,7 @@ $serverip = "localhost";
 if (isset($_GET['port'])) {
 $serverport = $_GET['port'];
 } else {
-$serverport = "25565";
+$serverport = "1";
 }
 
 include_once 'MinecraftServerStatus/status.class.php';
